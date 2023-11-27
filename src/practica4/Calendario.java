@@ -12,7 +12,7 @@ public class Calendario {
             this.mes = mes;
             this.dia = dia;
         } else {
-            System.out.println("Fecha no válida.");
+            System.out.println("FECHA INVÁLIDA.");
         }
     }
 
@@ -53,7 +53,7 @@ public class Calendario {
 
     // Método para mostrar la fecha por consola
     public void mostrar() {
-        System.out.println("Fecha: " + anyo + "-" + mes + "-" + dia);
+        System.out.println("FECHA: " + anyo + "-" + mes + "-" + dia);
     }
 
     // Método para determinar si dos fechas son iguales
